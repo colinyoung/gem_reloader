@@ -1,4 +1,5 @@
 require "gem_reloader/version"
+require "gem_reloader/railtie"
 
 module GemReloader
 
