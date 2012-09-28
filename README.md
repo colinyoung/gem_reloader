@@ -2,20 +2,6 @@
 
 Stop restarting your server after editing local gems!
 
-## Installation
-
-Add this line to your application's Gemfile:
-
-    gem 'gem_reloader'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install gem_reloader
-
 ## Usage
 
 In your `development.rb`, add:
@@ -29,6 +15,20 @@ Or, if you want to watch **all** local gems:
 That's literally it. Tiny but useful.
 
 By the way, a gem will be picked up by `::watch_all!` if it has a :path attribute.
+
+## Installation
+
+Add this line to your application's Gemfile:
+
+    gem 'gem_reloader'
+
+And then execute:
+
+    $ bundle
+
+Or install it yourself as:
+
+    $ gem install gem_reloader
 
 ## Contributing
 
