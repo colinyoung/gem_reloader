@@ -1,0 +1,3 @@
+module GemReloader
+  VERSION = "0.0.1"
+end
