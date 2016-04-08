@@ -49,7 +49,7 @@ module GemReloader
   
   private
   
-  PATH_REGEX = /^gem[\(| ]['"](\w+)['"][|,](?:.*)path[ =>\:]+['"]([\w\/]+)['"]/
+  PATH_REGEX = /^gem[\(| ]['"]([\w-]+)['"][|,](?:.*)path[ =>\:]+['"]([\w\/-]+)['"]/
   
   def self.reloadable_gems
     Array.new.tap do |gems|
